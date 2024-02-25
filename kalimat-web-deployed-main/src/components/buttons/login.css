@@ -1,0 +1,17 @@
+@import url('https://db.onlinewebfonts.com/c/e659e9c4fcee36a9ee6b81b490e48058?family=HelveticaNeueLT+W20+75+Bold');
+
+/* styles.css */
+#g_login_button {
+    background: #222E50;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#g_login_button div button {
+    font-family: 'HelveticaNeueLT W20 75 Bold' !important;
+    font-size: 32px !important;
+    color: white !important;
+}

@@ -1,11 +1,24 @@
+@import url(https://db.onlinewebfonts.com/c/e659e9c4fcee36a9ee6b81b490e48058?family=HelveticaNeueLT+W20+75+Bold);
+
 .home {
     font-family: 'Arial', sans-serif;
     position: relative;
     overflow: hidden;
 }
 
+h1{
+    font-family: 'HelveticaNeueLT W20 75 Bold';
+    color: #222E50;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
 .banner {
-    background-color: teal;
+    background-color: rgb(255, 255, 255);
     color: white;
     padding: 20px;
     text-align: center;

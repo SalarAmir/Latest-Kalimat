@@ -3,8 +3,8 @@ import {GoogleLogin} from 'react-google-login';
 import axios from 'axios'
 import { useCookies } from 'react-cookie';
 import UserContext from '../contexts/UserContext';
+import './login.css'; // Import the CSS file here
 const clientId = '467769474365-subo3k3h1cbp63u3pec5f4q6etdmtuqq.apps.googleusercontent.com';
-
 
 function Login(){
 
@@ -27,15 +27,16 @@ function Login(){
       };
     
       return (
-        <div id = "g_login_button">
+        <div id="g_login_button">
           <GoogleLogin
             clientId={clientId}
-            buttonText="Login"
+            buttonText="صفحة شخصية"
             onSuccess={onSuccess}
             onFailure={onFailure}
             cookiePolicy={'single_host_origin'}
-            // style={{ marginTop: '100px' }}
             isSignedIn={true}
+            theme="dark" // this will make the button text white
+            // style={{ marginTop: '100px' }}
           />
         </div>
       );

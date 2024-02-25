@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/e659e9c4fcee36a9ee6b81b490e48058?family=HelveticaNeueLT+W20+75+Bold);
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -16,9 +19,14 @@
     margin-right: 10px;
 }
 
-.navbar-text {
-    color: white;
-    font-size: 20px;
+body {
+    font-family: 'HelveticaNeueLT W20 75 Bold';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .navbar-link {
